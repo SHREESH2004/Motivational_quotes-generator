@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+h1, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+div {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
